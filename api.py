@@ -2,11 +2,9 @@ import requests
 
 import socket
 
-CLIENT_ID  = "e528e5f0793e265e7e8d98e77dc73c339797fe51fee3e4b85f2d4058ea018ec1"
-CLIENT_SECRET = "a43b2b409fbd7dbaca5521f90759705cf0dacc901fc1e9cd96cacdfea0a59d6e" 
+CLIENT_ID  = "YOUR UID"
+CLIENT_SECRET = "YOUR SECRET" 
 
-UID = '583f7950249ced0d33cdce36e43ce53c424bc322f7534729f478ef4a8c97e3c8'
-SECRET = '34751c22090e62b35be6781a3d63882a6abeeb837b41bbf2c96e05c6a15b0f3f'
 
 response = requests.post('https://api.intra.42.fr/oauth/token',[('grant_type','client_credentials'),
 					('client_id', CLIENT_ID),
